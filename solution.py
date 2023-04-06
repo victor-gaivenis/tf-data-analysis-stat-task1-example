@@ -10,5 +10,4 @@ def solution(x: np.array) -> float:
     # Не меняйте название функции и её аргументы
     mu = - 43-np.exp(1) 
     var = (np.exp(2)-2)*mu**2
-    a = 10/(x.mean()**2)
     return 13/(x.mean()**2) # Ваш ответ
