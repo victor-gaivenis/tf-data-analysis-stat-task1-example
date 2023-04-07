@@ -10,4 +10,6 @@ def solution(x: np.array) -> float:
     # Не меняйте название функции и её аргументы
     t = 13 
     n = len(x) 
-    return x.mean()/(13**2) # Ваш ответ
+    error = np.random.laplace(0,1,n)
+    a = 2*(x+error)/t**2
+    return a.mean() # Ваш ответ
